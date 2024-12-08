@@ -52,15 +52,9 @@ where:
 
 # Include a related picture for the Reynolds number
 st.image(
-    HEAD
     "/Users/gf/biotransport/Re.png",
     caption="Flow regimes based on Reynolds Number",
-    use_column_width=True
-
-    "/Users/gf/Desktop/umass/Biotransport art document/Re.png",
-    caption="Flow regimes based on Reynolds Number",
     use_container_width=True
-     05262429 (Initial commit of Streamlit app)
 )
 
 # Flow Visualization
@@ -131,8 +125,4 @@ anim = FuncAnimation(fig, update, frames=200, interval=50, blit=True)
 # Save animation as GIF and display
 gif_path = "particle_animation.gif"
 anim.save(gif_path, writer=PillowWriter(fps=20))
-<<<<<<< HEAD
-st.image(gif_path, caption=f"Particle Movement ({flow_type}) Based on Reynolds Number", use_column_width=True)
-=======
 st.image(gif_path, caption=f"Particle Movement ({flow_type}) Based on Reynolds Number", use_container_width=True)
->>>>>>> 05262429 (Initial commit of Streamlit app)
