@@ -52,7 +52,7 @@ where:
 
 # Include a related picture for the Reynolds number
 st.image(
-    "/Users/gf/biotransport/Re.png",
+    "/https://github.com/fgong7777/biotransport/blob/main/Re.png",
     caption="Flow regimes based on Reynolds Number",
     use_container_width=True
 )
